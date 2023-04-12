@@ -25,14 +25,12 @@ mas = quick_sort(lst)
 print(mas)
 
 def min(mas):
-    quick_sort(mas)
-    return quick_sort(mas)[0]
+    return mas[0]
 
 print(min(mas))
 
 def max(mas):
-    quick_sort(mas)
-    return quick_sort(mas)[-1]
+    return mas[-1]
 
 print(max(mas))
 
