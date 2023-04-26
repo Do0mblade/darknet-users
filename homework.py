@@ -21,3 +21,14 @@ def check_words(word1, word2):
                 return True
         return False
 print(check_words(word1, word2))
+
+# Ну вообще решение несколько проще)
+def mis(w1, w2):
+    if w1 != w2:
+        return False
+    else:
+        return True
+        
+# Это если ввиде функции. Но у нас задача записать пока без функции.
+# Поэтому тебе задание написать решение этой задачи без применения функции def
+# его надо добавить через git с локального устройства
